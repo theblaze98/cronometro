@@ -1,4 +1,4 @@
-@use "reset";
+@use 'reset';
 
 .contenedor {
 	position: relative;
@@ -14,7 +14,7 @@
 		align-items: center;
 		flex-direction: column;
 		&::before {
-			content: "";
+			content: '';
 			border-radius: 50%;
 			z-index: -1;
 			position: absolute;

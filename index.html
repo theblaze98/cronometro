@@ -1,28 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cronometro</title>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Cronometro</title>
 
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
+		<link rel="stylesheet" href="css/styles.css" />
+	</head>
+	<body>
+		<div class="contenedor">
+			<div class="contenedor__circle circle">
+				<div class="circle__stop-watch stop-watch">
+					<p class="stop-watch__p" id="reloj">00:00</p>
+				</div>
+				<div class="circle__buttons buttons">
+					<button class="buttons__stop" id="stop"></button>
+					<button
+						class="buttons__play-pause--paused"
+						id="play_pause"
+					></button>
+				</div>
+			</div>
+			<div id="seconds_sphere" class="contenedor__seconds-sphere"></div>
+		</div>
 
-    <div class="contenedor">
-        <div class="contenedor__circle circle">
-            <div class="circle__stop-watch stop-watch">
-                <p class="stop-watch__p" id="reloj">00:00</p>
-            </div>
-            <div class="circle__buttons  buttons">
-                <button class="buttons__stop" id="stop"></button>
-                <button class="buttons__play-pause--paused" id="play_pause"></button>
-            </div>
-        </div>
-        <div id="seconds_sphere" class="contenedor__seconds-sphere"></div>
-    </div>
-
-    <script src="js/main.js"></script>
-</body>
+		<script src="js/main.js"></script>
+	</body>
 </html>
