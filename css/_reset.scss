@@ -1,15 +1,14 @@
-
 :root {
-    --color: #212121;
-    --tipo-principal: 'Roboto', Arial, sans-serif;
+	--color: #212121;
+	--tipo-principal: 'Roboto', Arial, sans-serif;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    box-sizing: border-box;
-    vertical-align: baseline;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+	vertical-align: baseline;
 }
 
 img,
@@ -17,28 +16,28 @@ picture,
 video,
 iframe,
 figure {
-    max-width: 100%;
-    width: 100%;
-    display: block;
+	max-width: 100%;
+	width: 100%;
+	display: block;
 }
 
 a {
-    display: block;
-    text-decoration: none;
-    color: inherit;
-    font-size: inherit;
+	display: block;
+	text-decoration: none;
+	color: inherit;
+	font-size: inherit;
 }
 
 p a {
-    display: inline;
+	display: inline;
 }
 
 li {
-    list-style-type: none;
+	list-style-type: none;
 }
 
 html {
-    scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
 h1,
@@ -56,19 +55,19 @@ i,
 b,
 u,
 em {
-    font-size: 1em;
-    font-weight: inherit;
-    font-style: inherit;
-    text-decoration: none;
-    color: inherit;
+	font-size: 1em;
+	font-weight: inherit;
+	font-style: inherit;
+	text-decoration: none;
+	color: inherit;
 }
 
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-    content: '';
-    content: none;
+	content: '';
+	content: none;
 }
 
 form,
@@ -77,24 +76,24 @@ textarea,
 select,
 button,
 label {
-    font-family: inherit;
-    font-size: inherit;
-    hyphens: auto;
-    background-color: transparent;
-    color: inherit;
-    display: block;
+	font-family: inherit;
+	font-size: inherit;
+	hyphens: auto;
+	background-color: transparent;
+	color: inherit;
+	display: block;
 }
 
 table,
 tr,
 td {
-    border-collapse: collapse;
-    border-spacing: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
 body {
-    min-height: 100vh;
-    font-size: 100%;
-    font-family: var(--tipo-principal);
-    color: var(--color);
+	min-height: 100vh;
+	font-size: 100%;
+	font-family: var(--tipo-principal);
+	color: var(--color);
 }
